@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF8">
+    <title>Contacto Tennessee Volunteers en Español</title>
+    <link rel="icon" type="image.png" href="../imagenes/logo.png" sizes="16x16" />
+
+    <head>
+
+    <body>
+        <h1>Formulario de contacto</h1>
+        <form action=" " method="get">
+            <p>Nombre: <input id="nombre" name="nombre" type="text" /></p>
+            <p>Apellido: <input id="apellido" name="apellido" type="text" /></p>
+            <p> <label for="fechaNacimiento">Fecha nacimiento::</label>
+                <input type="date" id="fechaNacimiento" name="fechaNacimiento">
+            </p>
+
+            <h2>¿Cuanto te interesan estos deportes?</h2>
+            <table border="1">
+                <tr>
+                    <td>Deporte</td>
+                    <td>No me gusta</td>
+                    <td>Indiferente</td>
+                    <td>Me gusta</td>
+                </tr>
+                <tr>
+                    <td>Baloncesto</td>
+                    <td>
+                        <input type="radio" id="baloncesto" name="baloncesto" value="No Gusta" />
+                    </td>
+                    <td>
+                        <input type="radio" id="baloncesto" name="baloncesto" value="Indiferente" />
+                    </td>
+                    <td>
+                        <input type="radio" id="baloncesto" name="baloncesto" value="Si Gusta" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Futbol Americano</td>
+                    <td>
+                        <input type="radio" id="futbol" name="futbol" value="No Gusta" />
+                    </td>
+                    <td>
+                        <input type="radio" id="futbol" name="futbol" value="Indiferente" />
+                    </td>
+                    <td>
+                        <input type="radio" id="futbol" name="futbol" value="Si Gusta" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Voleibol</td>
+                    <td>
+                        <input type="radio" id="voleibol" name="voleibol" value="No Gusta" />
+                    </td>
+                    <td>
+                        <input type="radio" id="voleibol" name="voleibol" value="Indiferente" />
+                    </td>
+                    <td>
+                        <input type="radio" id="voleibol" name="voleibol" value="Si Gusta" />
+                    </td>
+                </tr>
+
+            </table>
+
+            <label for="modoContacto">Como nos encontraste</label> <select id="modoContacto" name="modoContacto">
+                <option value="amigos">Amigos</option>
+                <option value="buscador">Buscador Internet</option>
+                <option value="publi">Publicidad</option>
+                <option value="youtube">Youtube</option>
+            </select>
+            <p><textarea name="informacion" placeholder="Indique aqui el motivo de su consulta" rows="10" cols="50" style="resize: both;"></textarea></p>
+
+
+
+
+
+            <p><input type="submit" value="Enviar"> <input type="reset" value="Limpiar"></p>
+        </form>
+        <hr>
+
+
+
+		<footer>Ultima edicion 24 de noviembre de 2023 por Jorge Lambán Ligorred</footer>
+
+
+    </body>
